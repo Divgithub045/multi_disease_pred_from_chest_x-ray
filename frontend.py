@@ -10,7 +10,7 @@ st.title("Chest X-Ray Classifier")
 # Load trained model
 @st.cache_resource
 def load_trained_model():
-    return load_model("model.h5")
+    return load_model("model.h5",compile=False)
 
 model = load_trained_model()
 class_names = ['COVID19', 'NORMAL', 'PNEUMONIA']
