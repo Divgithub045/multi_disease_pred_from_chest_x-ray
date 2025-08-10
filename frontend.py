@@ -22,7 +22,7 @@ sample_dir = "./sample_images"  # put 3 images here
 sample_files = {
     "Sample Img 1": "one.jpg",
     "Sample Img 2": "two.jpg",
-    "Sample Img 3": "three.jpg"
+    "Sample Img 3": "person1000_bacteria_2931.jpeg"
 }
 
 option = st.selectbox("Or choose a sample X-ray:", ["None"] + list(sample_files.keys()))
